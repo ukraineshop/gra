@@ -374,12 +374,15 @@ src="https://www.facebook.com/tr?id=1378444636268045&ev=PageView&noscript=1"
         const name = this.name.value.trim();
         const phone = this.phone.value.trim();
 
+        // Перевірка на заповненість полів
         if (!name || !phone) {
             event.preventDefault(); // Запобігає відправці форми
             alert('Будь ласка, заповніть всі поля!'); // Повідомлення для користувача
         }
     });
 </script>
+
+
 
 
 <br>
