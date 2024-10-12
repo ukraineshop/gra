@@ -341,7 +341,50 @@ h5{
 }
 
 
+.order61 {
+	margin-top: 20px;
+}
+.order61 .field {
+	display: block;
+	margin: 0 auto 20px;
+	padding: 0 20px 0 80px;
+	width: 400px;
+	height: 66px;
+	border: 1px solid #e6e6e6;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	font-family: 'AvenirNextCyr', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333;
+}
 
+
+.order61 .field[name="name"] {
+	margin-top: 25px;
+	background-image: url("../images/name.png");
+	background-position: 23px center;
+	background-repeat: no-repeat;
+}
+
+.order61 .field[name="phone"] {
+	background-image: url("../images/phone.png");
+	background-position: 20px center;
+	background-repeat: no-repeat;
+}
+
+.order61 select.field{
+    background-image: url(../images/select.png);
+    background-position: 23px center;
+    background-repeat: no-repeat;
+}
+abel {
+	display: block;
+	margin: 10px auto 5px;
+	width: 400px;
+}
 .main-navigation .contact a {
 	display: flex;
 	flex-direction: row;
