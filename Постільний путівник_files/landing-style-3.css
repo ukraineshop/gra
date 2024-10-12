@@ -64,7 +64,7 @@ p:last-of-type {
 }
 
 .top-card-wrap{
-    background: #2f3039;
+    background:#f6f7fb;
 }
 
 .featured-media{
@@ -228,7 +228,7 @@ p:last-of-type {
 .countdown{
     text-align: center;
     padding: 0 20px 0 30px;
-    color: #fff;
+    color: #292626;
 }
 
 .countdown h4{
